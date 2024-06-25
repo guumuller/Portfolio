@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.nav-link{
+    font-family: Consolas, monaco, monospace;
+    font-size: 30px;
+    padding-right: 200px;
+    color: #2b7a60;
+}
+
+:hover .nav-link{
+    color: #2b7a60;
+}
+
+.nav-link1{
+    padding-top: 17px;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+
+:hover .nav-link1{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient( to top,  rgb(35, 35, 37),      #2b7a60);
+    margin: 0;
+    background-color: #ddd; 
+    background-repeat: no-repeat;                        /* repeat // repeat-x // repeat-y // no-repeat */
+    background-position: center top;                     /* top // bottom // left // rigth // center */
+    background-attachment: fixed;                        /* scroll // fixed */
+    /*background-size: 300px auto;*/
+    /*background-size: 100% auto;*/
+    background-size: cover;
+}
+
+.main-calculadora{
+    margin-top: 30px;
+}
+
+#carouselExampleControls{
+    width: 6500px;
+}
+
+.project-02{
+    display: flex;
+    width: 95%;
+    background-color: rgb(36, 35, 35);
+    padding: 10px 10px;
+    margin: 10px 30px;
+    border-radius: 12px;
+}
+
+.textoCalculadora h1,h6{
+    font-size: 20px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.textoCalculadora h1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.iconsCalculadora{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.iconsCalculadora img{
+    background-color: #2b7a607e;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1020px){
+    header{
+        display: block;
+        background-color: rgb(36, 35, 35);
+        color: white;
+        text-align: center;
+        justify-content: space-evenly;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    header a{
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
+    
+    .nav-link{
+        font-family: Consolas, monaco, monospace;
+        font-size: 30px;
+        padding-right: 200px;
+        color: #2b7a60;
+    }
+    
+    :hover .nav-link{
+        color: #2b7a60;
+    }
+
+    #carouselExampleControls{
+        width: 418px;
+    }
+
+    .project-02{
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        background-color: rgb(36, 35, 35);
+        padding: 10px 10px;
+        margin: 10px 30px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 940px){
+    header{
+        display: block;
+        background-color: rgb(36, 35, 35);
+        color: white;
+        text-align: center;
+        justify-content: space-evenly;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    header a{
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+
+    #carouselExampleControls{
+        width: 320px;
+    }
+
+    .project-02{
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        background-color: rgb(36, 35, 35);
+        padding: 10px 10px;
+        margin: 10px 30px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
